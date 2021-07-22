@@ -11,7 +11,7 @@
   </head>
   <body>
     <header class="header">
-      <img tabindex="0" class="header__img" src="img/logo.png" alt="Video" />
+      <img class="header__img" src="img/logo.png" alt="Video" />
       <h1>Johana Video</h1>
       <div class="header__menu">
         <div class="header__menu--profile">
@@ -26,33 +26,22 @@
       </div>
     </header>
 
-    <section class="login">
-        <section class="login__container">
-            <h2 tabindex="0">Inicia Sesión</h2>
-            <form class="login__container--form" action="">
-                <input aria-label="Nombre" class="input" type="text" name="" id="" placeholder="Usuario">
-                <input aria-label="Pass" class="input" type="text" name="" id="" placeholder="Contraseña">
+    <section class="register">
+        <section class="register__container">
+            <h2>Registrate</h2>
+            <form class="regiter__container--form" action="">
+                <input class="input" type="text" name="" id="" placeholder="Usuario">
+                <input class="input" type="text" name="" id="" placeholder="Contraseña">
                 <button class="button">Iniciar Sesión</button>
-                <div class="login__container--remenber">
+                <div class="regiter__container--remenber">
                     <label>
                         <input type="checkbox" name="" id="cbox1" value="checkbox"> Recuérdame
                     </label>
                     <a href="/"> Olvide mi contraseña</a>
                 </div>
             </form>
-            <section class="login__container--social-media">
-                <div>
-                    <i class="fab fa-google"></i>
-                    <span>Inicia Sesión con Google</span>
-                </div>
-                <div>
-                    <i class="fab fa-twitter"></i>
-                    <span>Inicia Sesión con Twitter</span>
-                </div>
-            </section>
-            <p class="login__container--register">
-                No tienes ninguna cuenta 
-                <a href="/registro.html">Regístrate</a>
+            <p class="register__login">
+                <a href="/iniciar-sesion.html">Iniciar sesion</a>
             </p>
         </section>
     </section>
