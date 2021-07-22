@@ -1,0 +1,26 @@
+{
+  "name": "videojohana",
+  "version": "1.0.0",
+  "description": "Videos",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanapimentel/videojohana.git"
+  },
+  "keywords": [
+    "video",
+    "johana"
+  ],
+  "author": "Vanessa Pimentel <johanapimentel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johanapimentel/videojohana/issues"
+  },
+  "homepage": "https://github.com/johanapimentel/videojohana#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
